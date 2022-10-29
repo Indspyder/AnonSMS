@@ -27,13 +27,16 @@ The author of this project is not responsible for any possible harm caused by th
 
 > ***Open the terminal and type following commands.***
 ```
-$ pkg install git
-$ pkg install python3
-$ python -m pip install requests
-$ git clone https://github.com/TheDarkRoot/AnonSMS.git
-$ cd AnonSMS
-$ chmod +x AnonSMS.py
-$ python3 AnonSMS.py
+pkg install git -y;pkg install python3 -y;python -m pip install requests;pip install --upgrade pip
+```
+```
+git clone https://github.com/TheDarkRoot/AnonSMS.git
+```
+```
+cd AnonSMS;chmod +x AnonSMS.py
+```
+```
+python3 AnonSMS.py
 ```
 
 # Screenshot

@@ -27,7 +27,7 @@ arlk = Message[0:70]
 drlm = input("\n >>> Send a message? [Y/N]: ")
 
 if drlm == "y" or drlm == "Y":
-    print("\n"+Number+"\n"+arlk+"\n")
+    print("\n"+Number)
     resp = requests.post('https://textbelt.com/text', {
   'phone': Number,
   'message': arlk,
